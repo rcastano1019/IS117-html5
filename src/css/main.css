@@ -92,9 +92,42 @@ textarea {
 
 
 
+p{
+	font-size:20px;
+	}
+#wrapper {
+	width:960px;
+	background-color:green;
+	margin-left: auto;
+	margin-right: auto;
 
-
-
+}
+#branding{
+	background-color:red;
+	width:960px;
+	}
+#menu{
+	background-color:blue;
+	}
+#content{
+	background-color:white;
+	width:593px;
+	float: left;
+	}
+#sidebar{
+	background-color:purple;
+	width:367px;
+	float:right;
+	}
+#footer{
+	background-color:yellow;
+	clear:both;
+	}
+#logo {
+	width:86px;
+	height:86px;
+	
+	}
 
 
 
