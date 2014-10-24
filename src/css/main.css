@@ -88,39 +88,42 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-p{
-	font-size:20px;
-	}
 #wrapper {
 	width:960px;
-	background-color:teal;
 	margin-left: auto;
 	margin-right: auto;
+	font-size:20px;
+	line-height:30px;
 
+}
+h1 {
+	font-size:220%;
+}
+h2 {
+	font-size:200%;
+}
+h3 {
+	font-size:180px;
+}
+h4 {
+	font-size:160px;
 }
 #branding{
 	background-color:red;
 	width:960px;
-	}
+}
 #menu{
 	height:56px;
 	line-height:56px;
 	background-color:black;
-	}
+}
 #content{
 	background-color:white;
-	width:593px;
-	float: left;
-	}
-#sidebar{
-	background-color:purple;
-	width:367px;
-	float:right;
-	}
+	width:898px;
+	padding-left:31px;
+	padding-right:31px;
+	text-align:justify;
+}
 #footer{
 	background-color:yellow;
 	clear:both;
@@ -144,6 +147,25 @@ p{
 #menu a:hover {
 	color:white;
 	}
+#article_head {
+	height:86px;
+	line-height:86px;
+	}
+#article_head h1 {
+	margin:0px;
+	}
+p.first	{
+	margin:0px;
+
+}
+#article_photo img  {
+	height:328px;
+	width:338px;
+	padding:9px;
+	float:right;
+	margin:10px;
+}
+
 
 
 
