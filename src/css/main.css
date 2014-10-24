@@ -97,7 +97,7 @@ p{
 	}
 #wrapper {
 	width:960px;
-	background-color:green;
+	background-color:teal;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -107,7 +107,9 @@ p{
 	width:960px;
 	}
 #menu{
-	background-color:blue;
+	height:56px;
+	line-height:56px;
+	background-color:black;
 	}
 #content{
 	background-color:white;
@@ -127,6 +129,20 @@ p{
 	width:86px;
 	height:86px;
 	
+	}
+#menu ul {
+	margin:0px;
+	}
+#menu li  {
+	display:inline;
+
+	}
+#menu a {
+	text-decoration:none;
+	color:red;
+}
+#menu a:hover {
+	color:white;
 	}
 
 
