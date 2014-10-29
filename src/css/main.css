@@ -103,14 +103,18 @@ h2 {
 	font-size:200%;
 }
 h3 {
-	font-size:180px;
+	font-size:180%;
 }
 h4 {
-	font-size:160px;
+	font-size:160%;
 }
 #branding{
 	background-color:red;
 	width:960px;
+}
+#search {
+	float:right;
+	padding:20px;
 }
 #menu{
 	height:56px;
@@ -118,14 +122,22 @@ h4 {
 	background-color:black;
 }
 #content{
+	
 	background-color:white;
-	width:898px;
-	padding-left:31px;
-	padding-right:31px;
-	text-align:justify;
+	width:593px;
+	/*padding-left:31px;
+	padding-right:31px;*/
+	
+	float:left;
+}
+#sidebar {
+	line-height:28px;
+	font-size:80%;
+	width:367px;
+	float:right;
 }
 #footer{
-	background-color:yellow;
+	background-color:red;
 	clear:both;
 	}
 #logo {
@@ -138,6 +150,7 @@ h4 {
 	}
 #menu li  {
 	display:inline;
+	padding:20px;
 
 	}
 #menu a {
